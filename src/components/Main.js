@@ -4,6 +4,8 @@ import Img from '../images/pexels-denis-4548232.jpg';
 import {  BrowserRouter as Router, Switch, Route  } from 'react-router-dom';
 import About from './nav_components/About';
 import Join from './nav_components/Join';
+import Footer from './Footer';
+
 
 
 export default function Main () {
@@ -20,7 +22,7 @@ export default function Main () {
    
       </Switch>
       </Router>
-           
+           <Footer/>
         </div>
-    )
+    );
 }

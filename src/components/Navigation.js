@@ -13,14 +13,15 @@ import {
 const Navigation = () => {
   return (
     <>
-      <Nav>
+      <Nav style={{fontFamily: 'Yellowtail'}}>
+        <h1>Adventure to Parenthood</h1>
         <Bars />
-          <NavMenu>
+          <NavMenu style={{fontFamily: 'Montserrat'}}>
               <NavLink to='/about' activeStyle>
-                About
+                <h2>About</h2>
               </NavLink>
               <NavLink to='/join' activeStyle>
-                  Join
+                  <h2>Join</h2>
               </NavLink>
           </NavMenu>
           <NavBtn>
